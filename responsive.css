@@ -1,0 +1,53 @@
+/* Extra small devices (phones, 375px and down) */
+@media only screen and (max-width: 375px) {
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+.sbg_color{
+  background-color: #163300;
+}
+.cards4 {
+  width: 471px;
+}
+.tow_cards{
+  width: 992px;
+  margin: 0 auto;
+}
+.section-5{
+  margin: 0 auto;
+}
+.six_box{
+  gap:25px;
+  margin: 0 auto;
+}
+.box{
+  width: 340px;
+}
+.last_stn{
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom:100px;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+
+} */
