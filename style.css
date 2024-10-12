@@ -621,12 +621,20 @@ line-height: 20px; /* 142.857% */
 background: #4FBA74;
 color: #0E0F0C;
 }
-#hcolo{
-  border-radius: 100px;
-background:  #4FBA74;
-color:  #0E0F0C;
-}
+
 .green_btn:hover{
   color:#fff;
 background: #163300;
+}
+.all_but :first-child:hover{
+  background-color:#4FBA74;
+  color:#fff;
+}
+.bg_buttop{
+ background-color: #9FE870;
+ color: #163300;
+}
+.all_but :last-child:hover{
+  background-color:#ECFAE2;
+  color:#0E0F0C;
 }
