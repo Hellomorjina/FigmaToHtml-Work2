@@ -6,16 +6,9 @@
   <title>Work-1</title>
   <link rel="stylesheet" href="style.css">
   <script src="jquery-3.2.1.min.js"></script>
+  <script src="app.js"></script>
 </head>
 <body>
-
-  <script>
-    $(document).ready(function(){
-        $("#demo").click(function(){
-            $("#demo_p").toggle(10);
-        });
-    });
- </script>
   <div class="full_wrapper " id="gotop">
     <div class="wrapper">
       <header>
@@ -24,7 +17,7 @@
               <img src="img/logo.png" alt="">
           </div>
         <div class="all_but">
-              <button style="background: #9FE870;" class="but">Apply Now</button>
+              <button style="background: #9FE870;" id="hcolo" class="but ">Apply Now</button>
               <button class="but">Log In</button>
         </div>
       </div>
@@ -237,17 +230,30 @@
               <div class="contend_nine">
                   <h2 class="heding_tow">Accelerate Business <br>Growth & Success</h2>
                   <div class="Faq">
-                    <div id="toggle">
-                      <button  id="demo"  class=" t_color ">Can I choose my meals?<img  src="img/down.png" alt=""></button>
-                      <p class="" id="demo_p" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                    <div class="toggle">
+                      <button class="demo t_color faq1">Can I choose my meals?<img  src="img/down.png" alt=""></button>
+                      <p class="demo_p faqp1" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
                   </div>
-                  <button  id="demo" class="toggle_but">When will I receive my order? <img src="img/down.png" alt=""></button> 
-                  <button  id="demo" class="toggle_but">Can I skip a delivery?<img src="img/down.png" alt=""></button>
-              
-                  <button  id="demo" class="toggle_but">Can I add Extras to my delivery?<img  src="img/down.png" alt=""></button>
-                  
-                  <button  id="demo"  class="toggle_but">Can I add Extras to my delivery?<img src="img/down.png" alt=""></button>
-                  <button  id="demo" class="toggle_but">Can I add Extras to my delivery?<img src="img/down.png" alt=""></button>
+                  <div class="toggle Wcolor">
+                    <button   class="demo faq2 Wcolor toggle_but  t_color ">When will I receive my order? <img src="img/down.png" alt=""></button> 
+                    <p class="demo_p faqp2" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  </div>
+                  <div class="toggle Wcolor">
+                    <button  class="demo faq3 toggle_but Wcolor t_color ">When will I receive my order? <img src="img/down.png" alt=""></button> 
+                    <p class="demo_p faqp3" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  </div>
+                  <div class="toggle Wcolor">
+                    <button class="demo toggle_but faq4 Wcolor t_color ">When will I receive my order? <img src="img/down.png" alt=""></button> 
+                    <p class="demo_p faqp4" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  </div>
+                  <div class="toggle Wcolor">
+                    <button class="faq5 demo toggle_but Wcolor t_color ">When will I receive my order? <img src="img/down.png" alt=""></button> 
+                    <p class="demo_p faqp5" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  </div>
+                  <div class="toggle Wcolor">
+                    <button class="demo faq6 toggle_but Wcolor t_color ">When will I receive my order? <img src="img/down.png" alt=""></button> 
+                    <p class="demo_p faqp6" >Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                  </div>
                   </div>
               </div>
           </div>
